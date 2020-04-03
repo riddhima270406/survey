@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+<head>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDXnneoStxX0UfWayHYO7X4oK1dIU_qjfE",
+      authDomain: "survey-to-bring-a-change-c2cb6.firebaseapp.com",
+      databaseURL: "https://survey-to-bring-a-change-c2cb6.firebaseio.com",
+      projectId: "survey-to-bring-a-change-c2cb6",
+      storageBucket: "survey-to-bring-a-change-c2cb6.appspot.com",
+      messagingSenderId: "353952603699",
+      appId: "1:353952603699:web:3feeb3a6613b8c6395cd46",
+      measurementId: "G-X9KZ8HL9EJ"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+<script src="Form.js"></script>
+<script src="Game.js.js"></script>
+<script src="Player.js.js"></script>
+   
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+</body>
+</html>
